@@ -1,6 +1,6 @@
 import numpy as np
 
-from std_operations import Add, Subtract
+from std_operations import Add, Subtract, Inverse
 from linalg import ScalProd
 
 a = -1
@@ -17,3 +17,5 @@ v = np.array([-4, 0, 6.73])
 udotv = ScalProd(u, v)
 
 print("{} dot {} = {}".format(u, v, udotv))
+
+print("The Inverse of {} is {}".format(b, Inverse(b)))

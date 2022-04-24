@@ -13,3 +13,7 @@ def Multiply(a, b):
 def Divide(a, b):
 
     return a / b
+
+def Inverse(a):
+
+    return 1 / a
