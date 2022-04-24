@@ -1,7 +1,7 @@
 import numpy as np
 
 from std_operations import Add, Subtract, Inverse
-from linalg import ScalProd
+from linalg import ScalProd, Norm
 
 a = -1
 b = 3.14
@@ -19,3 +19,4 @@ udotv = ScalProd(u, v)
 print("{} dot {} = {}".format(u, v, udotv))
 
 print("The Inverse of {} is {}".format(b, Inverse(b)))
+print("The norm of {} is {}".format(u, Norm(u)))
