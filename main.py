@@ -1,7 +1,7 @@
 import numpy as np
 
 from std_operations import Add, Subtract
-from linalg import ScalProd
+from linalg import ScalProd, Norm
 
 a = -1
 b = 3.14
@@ -17,3 +17,5 @@ v = np.array([-4, 0, 6.73])
 udotv = ScalProd(u, v)
 
 print("{} dot {} = {}".format(u, v, udotv))
+
+print("The norm of {} is {}".format(u, Norm(u)))
