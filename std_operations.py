@@ -17,3 +17,7 @@ def Divide(a, b):
 def Inverse(a):
 
     return 1 / a
+
+def Identity(a):
+
+    return a
