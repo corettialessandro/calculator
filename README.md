@@ -11,3 +11,4 @@ Some functions use **numpy**.
 
 # Your README sucks, let's change it a bit.
 ## But that's not true, I think it's quite awsome.
+### Maybe just a bit
