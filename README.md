@@ -10,3 +10,4 @@ This project implements a small math library with standard operations and some l
 Some functions use **numpy**.
 
 # Your README sucks, let's change it a bit.
+## But that's not true, I think it's quite awsome.
