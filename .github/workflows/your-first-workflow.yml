@@ -3,9 +3,9 @@ on: [push]
 jobs:
    check-dependencies:
       runs-on: ubuntu-latest
-         steps:
-            - run: python --version
-            - run: pip --version
-            - run: pip install -U numpy pytest
-            - run: python -c "import numpy as np; print(np.__version__)"
-            - run: pytest --version
+      steps:
+         - run: python --version
+         - run: pip --version
+         - run: pip install -U numpy pytest
+         - run: python -c "import numpy as np; print(np.__version__)"
+         - run: pytest --version
