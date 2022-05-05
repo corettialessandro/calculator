@@ -1,3 +1,5 @@
+![example workflow](https://github.com/corettialessandro/calculator/actions/workflows/your-first-workflow/badge.svg)
+
 # Project "Calculator"
 
 ## A test project for the course "Introduction to Version Control System: Git and GitHub"
