@@ -1,0 +1,7 @@
+name: your-first-workflow
+on: [push]
+jobs:
+        check-python-version:
+                runs-on: ubuntu-latest
+                steps:
+                        -run: python --version
