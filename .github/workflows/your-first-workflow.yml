@@ -8,5 +8,6 @@ jobs:
                         #  with:
                         #          node-version: '14'
                         - run: python --version
-                        - run: sudo apt install numpy
+                        - run: pip --version
+                        - run: pip install numpy
                         - run: python -c "import numpy as np; print(np.__version__)"
