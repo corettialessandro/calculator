@@ -1,19 +1,18 @@
 name: your-first-workflow
 on: [push]
 jobs:
-   testing:
-      checking-dependencies:
-         runs-on: ubuntu-latest
-         steps:
-            - name: Checking pre-installed dependencies
-              run: python --version; pip --version
-            - name: Installing additional dependencies
-              run: pip install -U numpy pytest
-            - name: Checking installed dependencies
-              run: python -c "import numpy as np; print(np.__version__)"; pytest --version
-      unit-tests:
-         needs: checking-dependencies
-         runs-on: ubunutu-latest
-         steps:
-            - name: Running Unit-tests
-              run: ls -l
+   checking-dependencies:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Checking pre-installed dependencies
+           run: python --version; pip --version
+         - name: Installing additional dependencies
+           run: pip install -U numpy pytest
+         - name: Checking installed dependencies
+           run: python -c "import numpy as np; print(np.__version__)"; pytest --version
+   unit-tests:
+      needs: checking-dependencies
+      runs-on: ubunutu-latest
+      steps:
+         - name: Running Unit-tests
+           run: ls -l
