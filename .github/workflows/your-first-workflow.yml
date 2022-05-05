@@ -10,6 +10,6 @@ jobs:
            run: pip install -U numpy pytest
          - name: Checking installed dependencies
            run: python -c "import numpy as np; print(np.__version__)"; pytest --version
+         - uses: checkout@v1
          - name: Running Unit-tests
-           uses: checkout@v1
            run: pytest
