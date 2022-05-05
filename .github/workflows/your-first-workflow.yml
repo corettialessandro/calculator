@@ -11,4 +11,4 @@ jobs:
          - name: Checking installed dependencies
            run: python -c "import numpy as np; print(np.__version__)"; pytest --version
          - name: Running Unit-tests
-           run: pytest
+           run: ls -l
