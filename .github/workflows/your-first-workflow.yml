@@ -5,12 +5,12 @@ jobs:
       runs-on: ubuntu-latest
       steps:
          - name: Checking pre-installed dependencies
-            run: python --version
-            run: pip --version
+           run: python --version
+           run: pip --version
          - name: Installing additional dependencies
-            run: pip install -U numpy pytest
+           run: pip install -U numpy pytest
          - name: Checking installed dependencies
-            run: python -c "import numpy as np; print(np.__version__)"
-            run: pytest --version
+           run: python -c "import numpy as np; print(np.__version__)"
+           run: pytest --version
          - name: Running Unit-tests
-            run: pytest
+           run: pytest
