@@ -15,4 +15,4 @@ jobs:
       runs-on: ubunutu-latest
       steps:
          - name: Running Unit-tests
-           run: ls -l
+           run: pytest --version
