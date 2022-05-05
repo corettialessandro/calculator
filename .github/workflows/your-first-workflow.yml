@@ -1,13 +1,11 @@
 name: your-first-workflow
 on: [push]
 jobs:
-        check-dependencies:
-                runs-on: ubuntu-latest
-                steps:
-                        #- uses: actions/setup-node@v3
-                        #  with:
-                        #          node-version: '14'
-                        - run: python --version
-                        - run: pip --version
-                        - run: pip install numpy
-                        - run: python -c "import numpy as np; print(np.__version__)"
+   check-dependencies:
+      runs-on: ubuntu-latest
+         steps:
+            - run: python --version
+            - run: pip --version
+            - run: pip install -U numpy pytest
+            - run: python -c "import numpy as np; print(np.__version__)"
+            - run: pytest --version
