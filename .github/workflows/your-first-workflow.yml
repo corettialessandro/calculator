@@ -1,7 +1,8 @@
 name: your-first-workflow
 on: [push]
 jobs:
-        check-python-version:
+        check-dependencies:
                 runs-on: ubuntu-latest
                 steps:
                         - run: python --version
+                        - run: python -c "import numpy as np; print(np.__version__)"
