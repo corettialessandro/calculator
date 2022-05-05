@@ -9,3 +9,7 @@ jobs:
          - run: pip install -U numpy pytest
          - run: python -c "import numpy as np; print(np.__version__)"
          - run: pytest --version
+   unit-tests:
+      runs-on: ubuntu-latest
+      steps:
+         - run: pytest
