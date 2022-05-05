@@ -4,4 +4,4 @@ jobs:
         check-python-version:
                 runs-on: ubuntu-latest
                 steps:
-                        -run: python --version
+                        - run: python --version
