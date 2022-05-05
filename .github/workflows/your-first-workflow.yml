@@ -1,7 +1,7 @@
-name: your-first-workflow
+name: my-first-workflow
 on: [push]
 jobs:
-   test:
+   CI:
       runs-on: ubuntu-latest
       steps:
          - name: Checking pre-installed dependencies
@@ -11,5 +11,5 @@ jobs:
          - name: Checking installed dependencies
            run: python -c "import numpy as np; print(np.__version__)"; pytest --version
          - uses: actions/checkout@v1
-         - name: Running Unit-tests
-           run: pytest
+         - name: Build
+           run: python main.py
