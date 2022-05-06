@@ -7,10 +7,11 @@ jobs:
          - name: Checking pre-installed dependencies
            run: python --version; pip --version
          - name: Installing additional dependencies
-           run: pip install -U numpy
+           run: pip install -U numpy pytest
          - name: Checking installed dependencies
-           run: python -c "import numpy as np; print(np.__version__)"
+           run: python -c "import numpy as np; print(np.__version__)"; pytest --version
          - uses: actions/checkout@v1
          - name: Build
            run: python main.py
-           
+         - name: Test
+           run: pytest
