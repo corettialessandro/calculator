@@ -1,4 +1,4 @@
-[![My First Workflow](https://github.com/MaxTiefenbacher/calculator_aless/actions/workflows/your-first-workflow.yml/badge.svg)](https://github.com/MaxTiefenbacher/calculator_aless/actions/workflows/your-first-workflow.yml)
+[![My First Workflow](https://github.com/MaxTiefenbacher/calculator_aless/actions/workflows/workflow.yml/badge.svg)](https://github.com/MaxTiefenbacher/calculator_aless/actions/workflows/workflow.yml)
 
 # Project "Calculator"
 
