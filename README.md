@@ -10,3 +10,5 @@
 
 This project implements a small math library with standard operations and some linear algebra functions.
 Some functions use **numpy**.
+
+Modyfication for Ale!!!
