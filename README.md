@@ -6,7 +6,7 @@
 
 ### Spring 2022
 
-#### Alessandro Coretti *<alessandro.coretti@univie.ac.at>*
+#### Max Tiefenbacher *<alessandro.coretti@univie.ac.at>*
 
 This project implements a small math library with standard operations and some linear algebra functions.
 Some functions use **numpy**.
