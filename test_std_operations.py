@@ -11,5 +11,5 @@ def test_subtract():
     assert Subtract(3, 2.5) == -Subtract(2.5, 3)
 
 def test_mult_div():
-
+    assert 1==2
     assert Multiply(3, 5) == Divide(3, 1/5)
