@@ -8,6 +8,11 @@ jobs:
          run: python --version; pip version
          -name: intstalling numpy
          run: pip install -U numpy
+         -name: intstalling pytest
+         run: pip install -U pytest
          -uses: actions/checkout@v1 ###actually loads the repo
          -name: run main.py
          run: python main.py
+         -name: using pytest
+         run: pytest
+
