@@ -7,7 +7,7 @@ def test_add():
 
 def test_subtract():
 
-    assert Subtract(-3, 1) == -5
+    assert Subtract(-3, 1) == -4
     assert Subtract(3, 2.5) == -Subtract(2.5, 3)
 
 def test_mult_div():
