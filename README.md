@@ -1,4 +1,4 @@
-[![My First Workflow](https://github.com/corettialessandro/calculator/actions/workflows/your-first-workflow.yml/badge.svg)](https://github.com/corettialessandro/calculator/actions/workflows/your-first-workflow.yml)
+[![My First Workflow](https://github.com/MaxTiefenbacher/calculator_aless/actions/workflows/workflow.yml/badge.svg)](https://github.com/MaxTiefenbacher/calculator_aless/actions/workflows/workflow.yml)
 
 # Project "Calculator"
 
@@ -6,7 +6,7 @@
 
 ### Spring 2022
 
-#### Alessandro Coretti *<alessandro.coretti@univie.ac.at>*
+#### Max Tiefenbacher *<alessandro.coretti@univie.ac.at>*
 
 This project implements a small math library with standard operations and some linear algebra functions.
 Some functions use **numpy**.
