@@ -2,7 +2,7 @@ name: workflow
 on: [push]
 jobs:
    tests:
-      runs-on: ubunti-latest
+      runs-on: ubuntu-latest
       steps:
          -name: checking for python
          run: python --version; pip version
