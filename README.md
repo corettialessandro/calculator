@@ -1,4 +1,4 @@
-![example workflow](https://github.com/corettialessandro/calculator/actions/workflows/your-first-workflow.yml/badge.svg)
+![My First Workflow](https://github.com/corettialessandro/calculator/actions/workflows/your-first-workflow.yml/badge.svg)
 
 # Project "Calculator"
 
