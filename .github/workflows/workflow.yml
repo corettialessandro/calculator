@@ -6,7 +6,7 @@ jobs:
       steps:
          -name: checking for python
          run: python --version; pip version
-         -name: intstall numpy:
+         -name: intstalling numpy
          run: pip install -U numpy
          -uses: actions/checkout@v1 ###actually loads the repo
          -name: run main.py
